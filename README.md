@@ -1,6 +1,6 @@
 This is a solution to the Social media dashboard with theme switcher challenge hub on Frontend Mentor.
 
-Live Site URL: https://sunnyside-agency-landing-page-delta.vercel.app/
+Live Site URL: https://dashboard-with-theme-switcher-two.vercel.app/
 
 Built with:
 

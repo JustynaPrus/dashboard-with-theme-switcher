@@ -211,7 +211,7 @@ div.switch.change {
 
 
 /*media queries*/
-@media only screen and (min-width: 451px) and (max-width: 768px) {
+@media (max-width: 768px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -223,7 +223,7 @@ div.switch.change {
         grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 }
-@media only screen and (max-width: 450px) {
+@media (max-width: 400px) {
     main {
         display: grid;
         grid-template-columns: 1fr;

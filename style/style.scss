@@ -223,7 +223,7 @@ div.switch.change {
         grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -233,5 +233,14 @@ div.switch.change {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    .switch {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
 }
 }
